@@ -7,9 +7,10 @@ class Fibonacci_Series{
         int n=sc.nextInt();
         int n1=0;
         int n2=1;
+        System.out.print(n1+"\t");
         int result=0;
         for(int i=1;i<=n;i++){
-            System.out.print(n1+"\t");
+            System.out.print(n2+"\t");
             result=n1+n2;
             n1=n2;
             n2=result;
