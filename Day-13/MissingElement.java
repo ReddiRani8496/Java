@@ -1,3 +1,4 @@
+//program to find the missing element in the array,if min and max elements of the array are given
 class MissingElement{
    public static void main(String[] args){
        int arr[]={13,14,12,15};
