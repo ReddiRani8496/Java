@@ -2,14 +2,13 @@
 import java.util.Arrays;
 class BinarySearch{
     public static void main(String[] args){
-        int arr[]={8,5,9,1,2,15,22};
-        Arrays.sort(arr); //to search element by using binary search, array must be sorted
-        int x=6;
+        int arr[]={3,5,8,12,18,20,25,30};
+        int x=12;
         int low=0,end=arr.length-1;
         while(low<=end){
             int mid=(low+end)/2;
             if(arr[mid]==x){
-                System.out.println("Element found");
+                System.out.println("Element found at index: "+mid);
                 return;
             }
             else if(arr[mid]>x)
