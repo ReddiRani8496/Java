@@ -1,0 +1,11 @@
+Time Complexity:
+----------------
+                    The amount of time taken to execute the program or a statement.
+
+O(1): Every time a constant amount of time is required to execute code.
+
+O(logn):
+
+A method with a logarithmic complexity (where n is really big) divides the issue into little bits for each iteration (log n).
+ It takes log(N) steps to execute a particular operation on N items, where the logarithm base is usually 2.
+ Because the logarithm base is not critical to the order of the operation count, it is frequently ignored. 
