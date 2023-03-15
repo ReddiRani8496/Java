@@ -1,0 +1,17 @@
+SpaceComplexity:
+---------------
+                The total amount of memory space used by a program, including the space of input values for execution is called SpaceComplexity.
+Constant SpaceComplexity O(1):
+-----------------------------
+                                Example: int n=10; // the  SpaceComplexity is O(1).
+                                In this example the integer takes 4bytes of memory, so that the space complexity is constant i.e. O(1).
+Linear SpaceComplexity O(n):
+----------------------------
+                                Example: int arr[]=new int[n];
+                                In java integer takes 4 bytes of memory, this example takes 4*n bytes of memory. we can remove constant i.e 4.=>O(n) space complexity. 
+                            
+Quadratic SpaceComplexity O(n^2):
+---------------------------------
+                                    Example: int arr[]=new int[n][n];
+                                    In java integer takes 4 bytes of memeory, this example takes 4*n*n bytes of memory, we can remove constant, then the 
+                                    time complexity is n*n=>O(n^2).
