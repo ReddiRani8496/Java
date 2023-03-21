@@ -1,19 +1,17 @@
-//program to find the maximum difference between two elements in the array
+//program to find the maximum difference between two elements such that larger element appears after the smaller number
 class MaxDiff{
     public static void main(String[] args){
-    int arr[]={6,3,8,7,2,9,4};
-    int len=arr.length;
-    int smallIndex=arr[0];
-    int maxIndex=0;
-    for(int i=0;i<len;i++){
-        if(arr[i]<smallIndex){
-        smallIndex=arr[i];
-        maxIndex=0;
+        int arr[]={7,9,5,6,3,2};
+        int len=arr.length;
+        int min=arr[0];
+        int max=0;
+        for(int i=1;i<len;i++){
+            if(arr[i]<min)
+            min=arr[i];
+            int diff=arr[i]-min;
+            if(diff>max)
+            max=diff;
         }
-        int diff=arr[i]-smallIndex;
-        if(diff>maxIndex)
-         maxIndex=diff;
+        System.out.println(max);
     }
-    System.out.println(maxIndex);
-}
 }
