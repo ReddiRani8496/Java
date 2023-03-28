@@ -16,17 +16,14 @@ class BracketsComparision{
                  mismatch++;
                  closes++;
                 }
-              
-                  }
-                
-                 
-                }
-                 if(opens>=1)
-                  mismatch++;
+               }
+         }
+             if(opens>=1)
+                 mismatch++;
             for(int i=0;i<str.length();i++){
-            if(str.charAt(i)=='[')
-            opens++;
-            else if(str.charAt(i)==']'){
+                if(str.charAt(i)=='[')
+                opens++;
+                else if(str.charAt(i)==']'){
                 if(opens>0){
                 opens--;
             }
