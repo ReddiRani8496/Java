@@ -30,7 +30,7 @@ class Alphabet_Star_Pattern{
         for(int i=1;i<=(n/2)+1;i++)
          System.out.print("*");
          System.out.println();
-         /*
+         
          for(int i=1;i<=(n/2);i++){
           System.out.print("*");
           for(int j=1;j<=(n/2)-1;j++)
@@ -41,23 +41,8 @@ class Alphabet_Star_Pattern{
            for(int i=1;i<=(n/2)+1;i++)
          System.out.print("*");
          System.out.println();
-         */
-         for(int i=2;i<=n/2;i++){
-            System.out.print("*");
-           // if((i-2)==0);
-            //System.out.print("*");
-            
-           // else{
-            for(int j=1;j<=(i-1);j++){
-                System.out.print(" ");
-               // System.out.print("*");
-            }
-            System.out.println("*");
-            //System.out.println();
-            
-
-         }
-        // System.out.println("*");
+         
+         
 
             
     }
