@@ -1,3 +1,4 @@
+//program to find out number of ears across all the bunnies recursively, where each bunny has 2 ears
 class BunnyEars{
     public static void main(String[] args){
         int bunnies=1;
