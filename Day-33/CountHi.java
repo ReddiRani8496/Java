@@ -5,25 +5,10 @@ class CountHi{
         System.out.println(countHi(str));
     }
     static int countHi(String str) {
-  int len=str.length();
-  if(len==0||len==1)
+    if(str.length()<2)
   return 0;
-  if(len==2){
-    if(str.charAt(len-1)=='i'){
-      if(str.charAt(len-2)=='h')
-      return 1+countHi(str.substring(0,len-1));
-      return 0+countHi(str.substring(0,len-1));
+  if(str.substring(0,2).equals("hi"))
+  return 1+countHi(str.substring(1));
+  return countHi(str.substring(1));
     }
-  }
-  if(len>2){
-  if(str.charAt(len-1)=='i'){
-  if(str.charAt(len-2)=='h')
-  return 1+countHi(str.substring(0,len-1));
-   return countHi(str.substring(0,len-1));
-  }
-  }
-  return countHi(str.substring(0,len-1));
-  
-}
-
 }
