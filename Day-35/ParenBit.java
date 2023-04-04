@@ -1,3 +1,5 @@
+//Given a string that contains a single pair of parenthesis, compute recursively a new string made of only of 
+//the parenthesis and their contents, so "xyz(abc)123" yields "(abc)".
 class ParenBit{
     public static void main(String[] args){
         String str="abc(xyz)def";

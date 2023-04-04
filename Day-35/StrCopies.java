@@ -1,3 +1,4 @@
+//Given a string and a non-empty substring sub, compute recursively if at least n copies of sub appear in the string somewhere, possibly with overlapping. 
 class StrCopies{
     public static void main(String[] args){
         String str="catcow";

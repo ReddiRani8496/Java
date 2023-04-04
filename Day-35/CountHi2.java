@@ -1,3 +1,5 @@
+//Given a string, compute recursively the number of times lowercase "hi" appears in the string,
+// however do not count "hi" that have an 'x' immedately before them.
 class CountHi2{
     public static void main(String[] args){
         String str="hixhi";

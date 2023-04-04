@@ -1,3 +1,4 @@
+//Given a string and a non-empty substring sub, compute recursively the number of times that sub appears in the string, without the sub strings overlapping.
 class StrCount{
     public static void main(String[] args){
         String str="catcowcat";
