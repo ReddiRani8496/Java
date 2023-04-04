@@ -5,7 +5,7 @@ class StringLength{
         System.out.println(stringLength(str));
     }
     static int stringLength(String str){
-        if(str.substring(0,1).equals("i"))
+        if(str.length()==0)
         return 0;
         return 1+stringLength(str.substring(1));
     }
