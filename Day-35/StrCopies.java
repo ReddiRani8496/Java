@@ -13,7 +13,7 @@ class StrCopies{
         if(str.length()<sublen)
         return false;
         if(str.substring(0,sublen).equals(sub))
-        return strCopies(str.substring(sublen),sub,n-1);
+        return strCopies(str.substring(1),sub,n-1);
         return strCopies(str.substring(1),sub,n);
     }
 }
