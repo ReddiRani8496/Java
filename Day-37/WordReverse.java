@@ -9,11 +9,9 @@ class WordReverse{
                     System.out.print(" ");
                 end=i;
             }
-        
         if(i==0){
             for(int k=0;k<end;k++)
-             
-                System.out.print(str.charAt(k));
+              System.out.print(str.charAt(k));
             }
         }
     }
