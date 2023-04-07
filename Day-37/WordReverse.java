@@ -1,3 +1,6 @@
+/*input:hi hello welcome
+output:welcome hello hi
+*/
 class WordReverse{
     public static void main(String[] args){
         String str="hi hello welcome";

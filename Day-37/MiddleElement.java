@@ -1,3 +1,7 @@
+/*program to find the middle element of the string
+input:java
+output:va
+*/
 class MiddleElement{
     public static void main(String[] args){
         String str="java";//avaj
