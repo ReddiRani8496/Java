@@ -1,4 +1,4 @@
-//constructor must be same as class name
+//constructor name must be same as class name, constructor doesnot have any return type
 class Hello{
    public static void main(String[] args){
         Hello h=new Hello();
