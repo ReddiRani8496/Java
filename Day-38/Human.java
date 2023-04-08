@@ -4,19 +4,19 @@ class Human{
      p1.eat();
      p1.play();
      p1.sleep();
-    // p1.age=10;//cannot access the private varible
+    //8 p1.age=10;//cannot access the private varible
   //  p1.setAge(-4);//return 1
     p1.setAge(20);//return 20
      System.out.println(p1.getAge());
-     p1.setGender("female");
+     p1.setGender("femal");
      System.out.println(p1.getGender());
-   
+    p1.name("aruna");
     }
 }
 class Person{
-    String name;
+   private String name;
    private int age;
-    String gender;
+   private String gender;
    private String phno;
     void eat(){
         System.out.println("eating food");
@@ -45,6 +45,9 @@ class Person{
     }
     String getGender(){
         return gender;
+    }
+    void name(String str){
+     System.out.println(str);
     }
 
 }
