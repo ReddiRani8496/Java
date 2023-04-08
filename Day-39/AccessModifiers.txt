@@ -1,0 +1,10 @@
+Access Modifers: Controls the access level
+---------------
+                There are four Access Modifers:
+                 1.public --> the code can be accessed in any other class/package
+                 2.private --> the code can be accessed within the class
+                 3.default --> the code can be accessed within the package
+                 4.protected
+
+class name:
+----------   We can define class as public or default
