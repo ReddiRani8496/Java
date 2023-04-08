@@ -1,4 +1,4 @@
-//methods with different parameters is called method overloading.
+//methods shoubld have same name, but can differ in arguments is called method overloading.
 class MethodOverloading{
     int add(int a,int b){
         return a+b;
