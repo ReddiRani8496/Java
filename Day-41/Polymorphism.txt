@@ -1,0 +1,14 @@
+Polymorphism:
+------------    Polymorphism is two words i.e., poly and morphism, poly means "many" and morphism means "forms".Hence Polymorphism means one thing 
+exist in many forms.
+Types of Polymorphism:
+----------------------
+                        1.Compile_time Polymorphism
+                        2.Runtime Polymorphism
+1)Compile_time Polymorphism is achieved by Method overloading or function overloading.
+Method overloading:
+------------------
+                    Methods should have same name but can differ in arguments.
+2)Runtime Polymorphism is achieved by Method overriding.
+Method overriding : 
+-------------------     When a subclass has same method as parent class is called Method overriding.
