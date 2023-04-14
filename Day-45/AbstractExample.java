@@ -1,5 +1,5 @@
-/*
- * The class which is declared as abstract is called abstract class
+/*abstract keyword is a non access modifier
+ * The class which is declared as abstract key word is called abstract class
  * if one method is abstract then class must be declared as abstract, abstact methods do not specify a body.
  * we can declare class as abstract, alothough there are no abstract methods
  */
