@@ -1,0 +1,21 @@
+OOPs concepts:
+-------------
+
+1)class
+2)object
+3)method
+4)abstraction
+5)polymorphism(compile time and run time)
+6)inheritance
+7)encapsulation
+8)dynamic binding(achieved by method overriding)
+9)message passing
+
+
+Pillars of OOPs:
+--------------
+APIE
+1)abstraction
+2)polymorphism
+3)inheritance
+4)encapsulation
