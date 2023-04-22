@@ -1,0 +1,9 @@
+1)Brute force technique is used to solve Rubik's cube.
+2)Brute force technique is used for password cracking.
+3)Brute force technique is used in substring search algorithm.
+4)Brute force technique is used plugging in a USB cable.
+5)Program to find specific value in sorted array.
+6)Program to guess the number what others thinking.
+7)Program  to search Queen bee in honeywomb.
+8)program to find a number is prime or not.
+9)program to find sum of two numbers in the array is equal to the given sum such that no element is used twice.

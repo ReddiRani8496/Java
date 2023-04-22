@@ -5,7 +5,6 @@ public class EncodedText {
         decode(cipher);
     }   
     static void decode(String str){
-        String cipher="";
         for(int i=1;i<=25;i++){
             for(int j=0;j<str.length();j++){
                 if(!(str.charAt(j)==' ')){
@@ -13,12 +12,12 @@ public class EncodedText {
                     int cur=ind%26;
                     if(cur<0)
                         cur+=26;
-                        cipher+=alp[cur];
+                    System.out.print( alp[cur]);
                 }
                 else
-                    cipher+=" ";
+                    System.out.print(" ");
             }
-            System.out.println(cipher);
+            System.out.println();
         }
     }
 }
