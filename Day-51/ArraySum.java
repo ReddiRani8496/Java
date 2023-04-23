@@ -10,7 +10,7 @@ public class ArraySum{
                     flag=true;
                 }
                 if(flag==true)
-                 return;
+                    return;
            }
         }
     }
