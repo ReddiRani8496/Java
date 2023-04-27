@@ -1,0 +1,9 @@
+DRY:
+---
+  DRY stands for Don't Repeat Yourself. 
+
+-> Concise 
+-> Efficient
+-> Easy to fix
+-> saves time
+-> more secure

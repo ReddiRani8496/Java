@@ -1,0 +1,10 @@
+ArrayList:
+----------
+            ArrayList class is a resizable array, it means elements can be added and removed from an ArrayList whenever we want.
+
+            It can be found in the java.util package.
+        
+Syntax:
+-------
+        ArrayList<wrapperclass> obj=new ArrayList<wrapperclass>();
+        
