@@ -1,0 +1,21 @@
+Types of variables:
+------------------
+                    1) Local variable
+                    2) Instance variable
+                    3) static variable
+1) Local variable:
+   --------------
+                A variable defined within a block or method or constructor is called Local variable.
+                The scope of Local variable is within the block or method or constructor.
+
+2) Instance variable:
+   -----------------
+                A variable declared inside a class and outside of any method or block or constructor is called Instance variable.
+                These variables are created when an object of the class is created.
+                Each object will have its own copy of memory.
+
+3)Static variables:
+  -----------------
+                The variables declared using the static keyword within a class and outside of method are called static variables.
+                We can only have one copy of static variable per class, irrespective of how many objects create.
+                Static variables are created when the program starts and destroyed when the program stops.
