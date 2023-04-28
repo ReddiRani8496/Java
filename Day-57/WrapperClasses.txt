@@ -1,0 +1,12 @@
+Wrapper classes are used to acheive complete object oriented programming.
+
+Primitive Day Type                                      Wrapper class
+------------------                                      -------------
+byte                                                      Byte
+short                                                     Short
+int                                                       Integer
+long                                                      Long
+boolean                                                   Boolean
+float                                                     Float
+double                                                    Double 
+char                                                      Character

@@ -2,7 +2,7 @@
 
 public class StaticVariable {
 
-    static int a=10;
+    static int a = 10;
     public static void main(String[] args) {
        System.out.println(a);  // we can access using variable name
 

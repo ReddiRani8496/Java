@@ -19,3 +19,7 @@ Types of variables:
                 The variables declared using the static keyword within a class and outside of method are called static variables.
                 We can only have one copy of static variable per class, irrespective of how many objects create.
                 Static variables are created when the program starts and destroyed when the program stops.
+
+Fields :
+--------
+         Instance variables and static variables are called fields.
