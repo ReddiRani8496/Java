@@ -1,0 +1,43 @@
+Types of Relationship between classes:
+-------------------------------------
+                                1)Inheritance(IS-A Relationship)
+                                2)Association(HAS-A Relationship)
+                                    a)Aggregation
+                                    b)Composition
+
+Inheritance(IS-A Relationship):
+-------------------------------
+                                Inheritance is achieved by using "extends" keyword.
+
+                                Example:
+                                -------
+
+                                class Vehicle {
+
+                                }
+                                class Car extends Vehicle {
+
+                                }
+
+                                Car ["IS-A"] Vehicle
+Association(HAS-A):
+------------------
+                                class Student {
+                                   String name;
+                                   int roll_no;
+                                }
+
+                                Student [HAS-A] name
+                                Student [HAS-A] roll_no
+
+                                Example 2:
+                                ----------
+
+                                class Engine {
+
+                                }
+                                class Car {
+                                    Engine e = new Engine(); //we  can achieve Association using object also
+                                }
+
+                                Car [HAS-A] Engine
