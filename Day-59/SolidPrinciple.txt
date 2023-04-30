@@ -1,0 +1,28 @@
+DRY Principle:
+-------------
+                DRY is an acronym for "Don't Repeat Principle".
+Advantages:
+----------
+-> Concise 
+-> Efficient
+-> Easy to fix
+-> Saves time
+-> More secure
+
+KISS Principle:
+--------------
+                KISS is an acronym for "Keep It Simple and Secure".
+Advantages:
+----------
+-> Users don't want to waste time.
+-> Reduced codebase complexity
+
+
+YAGNI Principle:
+---------------
+                    YAGNI is an acronym for "You Aren't Gonna Need It".
+Advantages:
+----------
+-> States that features should be added only when needed.
+-> Better developer performance
+-> More flexible code base.
