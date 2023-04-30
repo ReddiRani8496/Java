@@ -22,5 +22,8 @@ public class BigIntegerEx {
         System.out.println(num1.sqrt());
         System.out.println(num1.remainder(num2));
         System.out.println(num1.or(num2));
+        System.out.println(num1.add(num3));
+       // System.out.println(num1.divideAndRemainder(num3));
+        System.out.println(num1.min(num2));
     }
 }
