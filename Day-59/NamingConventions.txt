@@ -1,0 +1,38 @@
+Naming Convention                                                                   Format
+
+Camel Case(lower camel case)                                                       camelCase
+
+Kebab Case                                                                         Kebab-case
+
+Sanke Case                                                                         snake_case
+
+Pascal Case(Upper camel case)                                                      PascalCase
+
+Flat Case                                                                          flatcase
+
+Upper Flat Case                                                                    UPPERFLATCASE
+
+Screaming Snake Case                                                               SCREAMING_SNAKE_CASE
+
+Camel Sanke Case                                                                   camel_Snake_Case
+
+Pascal Snake Case                                                                  Pascal_Snake_Case
+
+Train Case(HTTP Header Case)                                                       Train-Case
+
+Cobol Case (Screaming Kebab Case)                                                  COBOL-CASE 
+
+
+In java we use only 3 Naming Conventions:
+---------------------------------------
+
+1) Camel case: Camel case is used for naming variables,methods.
+              Ex: int firstNumber=10;
+              starting letter of first word must be small, next word starting letters must be capital.
+
+2) PascalCase: Pascal case is used for naming classes.
+               Ex: class HelloWorld
+               starting letter of each word must be capital
+
+3) Screaming Snake Case: It is used for naming constants.
+                         Ex: MIN_AGE=18;

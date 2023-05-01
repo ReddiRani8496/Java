@@ -1,0 +1,16 @@
+String literal:
+--------------
+                The value of String is called String literal.
+                Ex: String str = "Java";
+
+                Here java is string literal, stored in String pool.
+                String literal takes less time to execute.
+                If there already exists a String value "Java", then str will reference of that String and no new String object will be created. 
+
+String object:
+-------------
+                String str = new String("Hello");
+                
+                The String created with new keyword is called String object. 
+                String object takes more time to execute, it will construct a new String everytime it is executed.
+                It is created outside the String pool.
