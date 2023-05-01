@@ -32,7 +32,7 @@ class MyBigInteger1 {
     }
     while(j > -1) {
         int temp = Integer.parseInt(String.valueOf(num2.charAt(j)))+carry;
-        sum +=temp%10;
+        sum += temp%10;
         carry = temp/10;
         j--;
     }
