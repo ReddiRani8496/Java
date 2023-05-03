@@ -24,6 +24,7 @@ public class ExceptionEx2 {
             System.out.println("null");
         }
         System.out.println("hello");
+        sc.close();
     
     }
 }
