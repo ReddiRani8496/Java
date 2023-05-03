@@ -1,0 +1,19 @@
+Exception Handling:
+------------------
+                    Exception Handling used to handle the runtime errors so that the regular flow of the application can be preserved.
+
+Major reasons why an exception occurs:
+-------------------------------------
+-> Invalid user input
+-> Device faliure
+-> Loss of network connection
+-> Physical limitations
+-> code errors
+-> Opening an unavailable file 
+
+Difference between Error and Exception:
+---------------------------------------
+
+Error: An error indicates a serious problem that a reasonable application should not try to catch.
+
+Exception: Exception indicates conditions that a reasonable application might try to catch.
