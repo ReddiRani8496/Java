@@ -1,0 +1,8 @@
+Most commonly used exceptions in java are:
+
+-> NullPointerException
+-> ArrayIndexOutOfBoundsException
+-> IllegalStateException
+-> ClassCastException
+-> ArithmeticException
+-> IllegalArgumentException
