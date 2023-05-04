@@ -1,0 +1,23 @@
+throw keyword:
+--------------
+                The throw keyword in java is used to explicitly throw an exception from a method or a block of code.
+
+                We can throw either checked or unchecked exception.
+
+                Syntax:
+                -------         throw Instance
+                Example:
+                --------          throw new ArithmeticException("/by zero");
+    
+throws keyword:
+--------------  
+                throws is a keyword in java which is used in the signature of method to indicate that this method might throw one of
+
+                the listed type exception.
+
+                Syntax:
+                ------      returntype method_name(parameters) throws exception_list
+
+                To prevent this compile time error we can handle the exception in two ways:
+                            1) using try catch
+                            2) using throws keyword

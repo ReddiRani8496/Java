@@ -1,0 +1,13 @@
+There are two types of exceptions:
+---------------------------------
+                                    1)Checked Exception
+                                    2)unchecked Exception
+
+Checked exception:
+-----------------
+                    [C]hecked exception caught at [C]ompile time.
+
+Unchecked exception:
+--------------------
+                     Unchecked exception caught at Run time.
+                                       
