@@ -5,8 +5,8 @@ class ClassNotFoundExceptions{
 
 
         try {
-            
-            Class.forName("Hello");
+
+            Class.forName("ThrowKeyword");
 
             System.out.println("class found");
         }
