@@ -1,0 +1,24 @@
+Compiler :
+--------     A compiler in java translates the entire source code into a machine code file or any intermediate code,
+
+and that file is then executed.
+
+                                             Compiler (using javac cmd)
+                                Source Code -----------------------------> Byte code 
+
+-> Compiler scans the complete source code in one go and then highlights the error.
+
+Interpreter:
+-----------
+            An Interpreter is a computer program that converts the high-level program statement into Assembly-level language.
+
+                                    Interpreter (using java cmd)
+                        ByteCode  -------------------------------->Machine Code
+                
+-> Interpreter converts the byte code into the native code of the machine.
+-> This process is done line by line.
+-> If the error comes on any line, the process is stopped over there.
+
+
+
+
