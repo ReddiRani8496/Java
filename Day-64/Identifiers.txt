@@ -1,0 +1,14 @@
+Identifiers:
+-----------
+                All java variables must be identified with unique names.
+
+                These unique names are called Identifiers.
+
+Rules for Identifiers:
+----------------------
+
+->It should not be a reserved keyword.
+ 
+->Valid characters are A-Z/a-z/0-9/ _ $
+
+->It should not start with a number.
