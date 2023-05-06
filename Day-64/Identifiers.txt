@@ -1,6 +1,6 @@
 Identifiers:
 -----------
-                All java variables must be identified with unique names.
+                All java variables or methods or classes or must be identified with unique names.
 
                 These unique names are called Identifiers.
 
