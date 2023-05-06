@@ -1,4 +1,4 @@
-public class TestBox {
+public class TestBlocks {
     public static void main(String args[]) {
       String str = """
                   void hello(){
