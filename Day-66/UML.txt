@@ -1,0 +1,16 @@
+UML:
+---
+        UML stands for Unified Modeling Language.
+
+        It is used to visualize the system.
+
+        It makes communication more clear and more real.
+
+        It helps to acquire the entire system in a view.
+
+        It reduces thousands of words of explanation in a few graphical diagrams that may reduce time consumption to understand.
+
+Types of UML:
+------------
+             1) Structural UML diagrams
+             2) Behavioral UML diagrams
