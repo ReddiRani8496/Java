@@ -1,0 +1,9 @@
+StackOverflowError:
+-----------------
+                        StackOverflowError is an error which java doesn't allow to catch, for instance, stack running out of space,
+                        
+                        as it's one of  the most common runtime errors one can encounter.
+
+                        The main cause of the StackOverflowError is that we HAVEN'T PROVIDED THE PROPER TERMINATING CONDITION to our
+                        
+                        recursive function or templete, which means it will turn into an infinite loop.

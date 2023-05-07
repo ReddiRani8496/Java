@@ -1,0 +1,11 @@
+            FILE                                              FOLDER
+
+1) Collection of related data stored                     Organize files into groups and them under a
+   in a secondary storage device.                          common heading.
+
+2) Take space in computer memory.                        Do not take space in computer memory.
+
+3) Consists of extensions to indicate                    Do not consist of any extensions.
+   the kind of program they belong to
+
+4) A file cannot contain other files                     A folder can contain other folders.
