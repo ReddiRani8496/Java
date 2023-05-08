@@ -1,7 +1,1 @@
 hello world
-hello world
-hhello world
-hthis is append methodthis is write methodhello world
-h
-this is append method
-this is write method

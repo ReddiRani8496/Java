@@ -14,6 +14,8 @@ public class PrintWriterClass {
         printWriter.append("\nthis is append method");
 
         printWriter.write("\nthis is write method");
+
+        printWriter.flush();
         
         printWriter.close();
     }

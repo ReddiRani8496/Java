@@ -18,7 +18,11 @@ public class FileWriterClass {
 
         fileWriter1.append("\n mock is text file"); // adds the content to the previous content
 
+        fileWriter.flush();
+
         fileWriter.close();
+
+        fileWriter1.flush();
 
         fileWriter1.close();
     }

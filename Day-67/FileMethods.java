@@ -13,7 +13,7 @@ public class FileMethods  {
 
         System.out.println(f1.canWrite()); // tests whether the file is writable or not
 
-        System.out.println(f1.compareTo(new File("duck.txt"))); // compares the file with the specified file
+        System.out.println(f1.compareTo(new File("duck.txt"))); // compares the file path with the specified file path, if matches return 0, otherwise return ASCII val difference
 
         System.out.println(f1.isHidden()); // returns true if the file is hidden, otherwise returns false
 
