@@ -17,10 +17,13 @@ public class FileReaderClass {
         }
         System.out.println();
         
-        Scanner sc = new Scanner(new File("mock.txt"));
+        Scanner sc = new Scanner(new File("mock.txt")); // reading content of a file using Scanner class
+
         while(sc.hasNext()) {
-            System.out.println(sc.next());
+
+            System.out.println(sc.nextLine());
         }
+        
         reader.close();
     }
 }
