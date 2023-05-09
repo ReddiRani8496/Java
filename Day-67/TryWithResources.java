@@ -11,9 +11,11 @@ public class TryWithResources {
 
             fos.write(arr);
 
-           // fos.flush(); try with resources automatically flushes and close all the resources
+           // fos.flush(); 
 
-           // fos.close(); 
+           // fos.close();
+           
+           // The resources are automatically closed when using try-with-resource block. As part of this process it will also invoke flush automatically.
 
         } catch(Exception e) {
             
