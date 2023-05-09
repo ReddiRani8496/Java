@@ -1,5 +1,7 @@
 Object Class:
 -------------
+                Every class in java IS-A Object
+
                 Java Object class is the superclass of all the classes in java.
 
                 All the methods of Object class can be used by all the subclasses and arrays.
