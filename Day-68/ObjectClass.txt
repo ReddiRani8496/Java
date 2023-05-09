@@ -1,0 +1,38 @@
+Object Class:
+-------------
+                Java Object class is the superclass of all the classes in java.
+
+                All the methods of Object class can be used by all the subclasses and arrays.
+
+                The Object class provides different methods to perform different operations on Objects.
+
+Java.lang.Object Class methods:
+-------------------------------
+
+toString()  : This method is used to returns a String representation of the object.
+               
+               public String toString();
+
+clone()     : Creates and returns a copy of this object.
+
+                protected Object clone()throws CloneNotSupportedException
+
+equals()    : We can use this method to check the equality of an object.
+
+                public boolean equals(Object o);
+
+hashCode()  : A unique id that is assigned to an Object is known as HashCode of Object.
+
+                public int hashCode();
+
+finalize()
+
+getClass()  : returns the runtime class of this object.
+
+                public final Class<?> getClass();
+
+wait()
+
+notify()
+
+notifyAll()
