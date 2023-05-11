@@ -1,6 +1,5 @@
 import java.util.*;
-
-public class ArrayListEx {
+public class ArrayListEx1 {
     public static void main(String[] args) {
         ArrayList<Integer> arr = new ArrayList<>();
         arr.add(110);
@@ -15,8 +14,6 @@ public class ArrayListEx {
         arr.add(100);
         System.out.println(arr.get(3));
         Collections.sort(arr);
-        System.out.println(arr);
-        arr.clear();
         System.out.println(arr);
     }
 }
