@@ -16,5 +16,7 @@ public class ArrayListEx {
         System.out.println(arr.get(3));
         Collections.sort(arr);
         System.out.println(arr);
+        arr.clear();
+        System.out.println(arr);
     }
 }
