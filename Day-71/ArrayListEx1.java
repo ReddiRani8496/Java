@@ -14,6 +14,6 @@ public class ArrayListEx1 {
         arr.add(100);
         System.out.println(arr.get(3));
         Collections.sort(arr);
-        System.out.println(arr);
+        
     }
 }
