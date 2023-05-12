@@ -1,0 +1,41 @@
+ArrayList :
+---------
+            ArrayList is the implemention of dynamic array.
+
+            ArrayList size is increased automatically if the collection grows or shrinks if the objects are removed from the collection.
+
+            ArrayList can be used fo wrapper classes 
+
+            In ArrayList duplicates are allowed and null insertion is possible.
+
+
+ArrayList Methods :
+-----------------
+
+add() : In order to add an element to an ArrayList  we use add() method.
+
+set() : set() method is used to modify the elements in the ArrayList.
+
+remove() : remove() method is used to remove an element from an ArrayList.
+
+get() : to access the elements we use get() method.
+
+Collections.sort() : this method is used to sort the elements in the ArrayList.
+
+size() : this method returns the size of the ArrayList.
+
+Advantages:
+----------
+-> Dynamic size
+-> Easy to use
+-> Fast access
+-> Ordered collection
+-> Supports null values.
+
+Disadvantages:
+-------------
+
+-> Slower than arrays 
+-> Increased memory usage
+-> Not thread-safe
+-> Performance degradation
