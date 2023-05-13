@@ -35,8 +35,8 @@ public class LinkedListVsArrayList {
     ArrayList [2_000_000] is a specific memory address (after all, the list has an internal array).
 
     A LinkedList does not have an array. It will search for element number 2_000_000 along the chain of links. 
-    
-        For LinkedList, this is not a memory address, but a link that still needs to be reached: next, next, next --------.
+
+        For LinkedList, this is not a memory address, but a link that still needs to be reached: next, next, next ............
     
     As a result, during each insertion (removal) in the middle of the list, ArrayList already knows the exact memory address to access,
          but LinkedList still needs to "get there".
