@@ -1,0 +1,11 @@
+Vector really has some problems... why is it still in Java and why should it be taught?
+--------------------------------------------------------------------------------------
+
+ The fact is that Java professes the principle of backward compatibility.
+
+ This means that all old code written many years ago will be understood by modern versions of Java. 
+
+ In addition, there are quite a few enterprise-level applications in the Java environment that have been supported for decades. 
+
+ It is quite possible that you will have to deal with Vector class in your work,
+    so you need to be prepared for surprises, such as code with ineffective legacy classes.
