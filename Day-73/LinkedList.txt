@@ -1,0 +1,19 @@
+LinkedList:
+----------  
+
+The elements in a Java LinkedList are actually links in a single chain. 
+
+In addition to data, each element stores references to the previous and next elements. 
+
+These references let you move from one element to another. 
+
+ Performing Various Operations on LinkedList:
+ ------------------------------------------
+
+   -> Adding elements
+   -> Updating elements
+   -> Removing elements
+   -> Iterating over elements
+
+
+    
