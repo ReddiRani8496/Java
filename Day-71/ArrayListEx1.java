@@ -33,6 +33,22 @@ public class ArrayListEx1 {
 
         System.out.println(arr);
 
+        arr.add(3, 35); // inserts element at index 3
+
+        System.out.println(arr);
+
+        boolean ans = arr.contains(120);  // check if the element  120 exits or not
+
+        System.out.println(ans);
+
+        int pos =arr.indexOf(60); //returns the position of 60
+
+        System.out.println(pos);
+
+        ans = arr.isEmpty(); // check if the list is empty or not
+
+        System.out.println(ans);
+
         
     }
 }
