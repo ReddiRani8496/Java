@@ -15,5 +15,15 @@ These references let you move from one element to another.
    -> Removing elements
    -> Iterating over elements
 
+Advantages:
+---------
+-> Dynamic size
+-> Efficient insertions and deletions
+-> Flexible iteration
+
+Disadvantages:
+-------------
+-> LinkedList has slower performance than ArrayList when accessing individual elements.
+-> LinkedList require more memory than ArrayList.
 
     
