@@ -1,0 +1,54 @@
+Array: 
+-----
+        Arrays store elements in contiguous memory locations, resulting in easily calculable addresses 
+
+        for the elements stored and this allows faster access to an element at a specific index.
+
+LinkedList:
+----------  
+
+The elements in a Java LinkedList are actually links in a single chain. 
+
+In addition to data, each element stores references to the previous and next elements. 
+
+These references let you move from one element to another. 
+
+
+            Array                                                LinkedList
+
+-> Arrays are stored in contiguous locations.               -> LinkedLists are not stored in contiguous locations.
+
+-> Fixed in size.                                           -> Dynamic in size
+
+-> Memory is allocated at compile time.                     -> Memory is allocated at run time.
+
+-> Uses less memory than LinkedList.                        -> Uses more memory because it stores data and 
+                                                                    address of next node.
+
+-> elements can be accessed easily.                         -> Element accessing requires the traversal of whole
+                                                                    LinkedList.
+
+-> Insertion and deletion Operations                        -> Insertion and deletion Operations are faster.
+    takes time.
+
+Advantages of LinkedList:
+------------------------
+
+-> Dynamic in size
+-> Insertion and deletion Operations are faster.
+
+Disadvantages of LinkedList:
+---------------------------
+
+-> Uses more memory because it stores data and address of next node.
+-> Element accessing requires the traversal of whole  LinkedList.
+
+Advantages of Array:
+-------------------
+-> Elements can be accessed easily.
+-> Uses less memory than LinkedList.
+
+Disadvantages of Array:
+----------------------
+-> Fixed in size.
+-> Insertion and deletion Operations takes time.

@@ -1,0 +1,33 @@
+Stack:
+-----
+    The stack is a linear data structure that is used to store the collection of objects.
+
+    Stack is a subclass of Vector that implements a standard last-in, first-out stack[LIFO].
+
+Stack Operations :
+----------------
+
+push() : Insert data onto stack.
+
+pop() : Removes and returned last inserted element from the stack
+
+peek() : Returns the last inserted elements without removing it.
+
+size() :  Returns the number of elements stored in stack.
+
+isStackFull() : Check whether stack is full or not.
+
+isEmpty() : Check whether stack is empty or not.
+
+Advantages:
+----------
+-> Easy to started
+-> Less Hardware Requirement
+-> Cross- Platform
+
+Disadvantages:
+-------------
+
+-> not flexible
+-> Lack of scailability
+-> Unable to Copy & Paste
