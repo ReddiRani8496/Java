@@ -43,12 +43,12 @@ Disadvantages of LinkedList:
 -> Uses more memory because it stores data and address of next node.
 -> Element accessing requires the traversal of whole  LinkedList.
 
-Advantages of Array:
+Advantages of Array :
 -------------------
 -> Elements can be accessed easily.
 -> Uses less memory than LinkedList.
 
-Disadvantages of Array:
+Disadvantages of Array :
 ----------------------
 -> Fixed in size.
 -> Insertion and deletion Operations takes time.
