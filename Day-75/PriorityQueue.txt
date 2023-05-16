@@ -1,0 +1,13 @@
+PriorityQueue:
+-------------
+    A PriorityQueue is used when the objects are supposed to be processed based on the priority.
+
+Applications of PriorityQueue:
+-----------------------------
+
+-> Heap sort
+-> Operating System
+-> Medical System
+-> Robotics
+-> Prims algorithm
+-> Dijkstra’s Shortest Path Algorithm 
