@@ -1,0 +1,38 @@
+ArrayDeque:
+----------
+    It follows FIFO(First In First Out).
+    
+    The ArrayDeque in Java provides a way to apply resizable-array in addition to the implementation of the Deque interface. 
+
+    It is also known as Array Double Ended Queue or Array Deck. 
+
+    This is a special kind of array that grows and allows users to add or remove an element from both sides of the queue.
+
+Advantages:
+----------
+
+Efficient: The ArrayDeque class provides constant-time performance for inserting and removing elements 
+                from both ends of the queue.
+
+Resizable: The ArrayDeque class uses a resizable array to store its elements.
+
+Lightweight: The ArrayDeque class is a lightweight data structure that does not require additional overhead.
+
+Thread-safe: The ArrayDeque class is not thread-safe, but you can use the Collections.
+                synchronizedDeque method to create a thread-safe version of the ArrayDeque class.
+
+Disadvantages of using ArrayDeque:
+----------------------------------
+Not synchronized: By default, the ArrayDeque class is not synchronized, which means 
+                    that multiple threads can access it simultaneously, leading to potential data corruption.
+
+Limited capacity: it still has a limited capacity,  which means that you may need to create a new ArrayDeque 
+                    when the old one reaches its maximum size.
+
+Intefaces implemented by ArrayDeque:
+-----------------------------------
+
+-> Queue interface
+-> Deque interface
+    
+   
