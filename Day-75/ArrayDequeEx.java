@@ -1,5 +1,5 @@
 import java.util.ArrayDeque;
-import java.util.Deque;
+import java.util.*;
 class ArrayDequeEx {
     public static void main(String[] args) {
         Deque<Integer> deque = new ArrayDeque<Integer>();
@@ -8,13 +8,13 @@ class ArrayDequeEx {
         deque.add(30);
         deque.add(40);
         System.out.println(deque);
-        deque.remove(); // 	The method returns head element and also removes it
+        deque.remove(); //The method returns head element and also removes it
         System.out.println(deque);
         deque.addFirst(50); //The method inserts particular element at the start of the deque.
         deque.addLast(60); //The method inserts particular element at the last of the deque.
         System.out.println(deque);
         System.out.println(deque.contains(30)); //The method checks whether a deque contains the element or not
-        System.out.println(deque.element()); //The method returns element at the head of the dequ
+        System.out.println(deque.element()); //The method returns element at the head of the deque
         System.out.println(deque.getClass()); // This method returns the class name
         System.out.println(deque.isEmpty()); // The method checks whether the deque is empty or not.
         System.out.println(deque.offer(70)); // The method inserts element at the end of deque.
