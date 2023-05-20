@@ -22,7 +22,7 @@ public class SpeedDiff {
 
         long end = System.currentTimeMillis();
 
-        System.out.println("Added "+size+" Elements to the ArrayList in "+(end-start)+" ms"); // takes 61ms
+        System.out.println("Added "+size+" Elements to the ArrayList in "+(end-start)+" ms"); 
 
         List<Integer> vector = new ArrayList<>();
 
@@ -36,7 +36,7 @@ public class SpeedDiff {
 
         end = System.currentTimeMillis();
 
-        System.out.println("Added "+size+" Elements to the Vector class in "+(end-start)+" ms"); // takes 81ms
+        System.out.println("Added "+size+" Elements to the Vector class in "+(end-start)+" ms"); 
 
     }
 }
