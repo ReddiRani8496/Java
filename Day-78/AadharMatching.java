@@ -1,7 +1,8 @@
 // program to check whether the user entered correct aadhar number or not using regular expression.
 import java.util.Scanner;
 import java.util.regex.Pattern;
-import java.util.regex.*;;
+import java.util.regex.Matcher;
+
 public class AadharMatching {
     public static void main(String[] args) {
 
