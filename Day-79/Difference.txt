@@ -1,0 +1,17 @@
+
+Parameter	                        String	                        StringBuffer	            StringBuilder
+---------                          --------                        --------------              ----------------
+Storage 	                    String Pool	                            Heap	                    Heap
+
+Mutability	                        Immutable	                        Mutable	                    Mutable  
+
+Thread Safe	              Not used in a threaded                Used in a multi-threaded        Used in a single-threaded 
+                                environment	                        environment	                   environment
+
+Performance                     	Slow	                Slower than StringBuilder but      Faster than StringBuffer
+                                                              faster than String	
+
+Syntax	                String var =“Edureka”;             StringBuffer var =                   StringBuilder var =
+                    String var=new String(“Edureka”);           new StringBuffer("Edureka");      new StringBuilder("Edureka");
+
+	 
