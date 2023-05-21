@@ -7,7 +7,7 @@ public class VariableMatching {
 
         Scanner sc = new Scanner(System.in);
 
-        String regex = "[^\\d][a-zA-Z0\\d_$]*";
+        String regex = "[^\\d@#!%^&*()][\\w$]*";
 
         boolean res;
 
