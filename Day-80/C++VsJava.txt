@@ -1,0 +1,32 @@
+Differences between C++ and java :
+--------------------------------
+
+                C++                                                  Java
+
+-> C++ is platform dependent.                             -> Java is platform independent.
+
+-> C++ mainly used for system programming.                -> Java is  mainly used for application programming.
+
+-> C++ supports multiple inheritance.                     -> Java doesn't support multiple inheritance through class,
+                                                                but it can be achieved by interface.
+                                                        
+-> C++ supports operator overloading.                     -> Java doesn't support operator overloading.
+
+-> C++ supports pointers.                                 -> Java has restricted pointer support in java.
+
+-> C++ uses compiler only.                                -> Java uses both compiler and interpreter.
+
+-> C++ supports both call by value                        -> Java supports call by value only.
+    and call by reference                                       There is no call by reference in java.
+
+-> C++ supports structures and unions.                    -> Java doesn't support structures and unions.
+
+-> C++ doesn't have built-in support for                  -> Java has built-in thread support.
+    threads.
+
+-> C++ doesn't support documentation                      -> Java supports documentation comments(/**...*/).
+    comments.
+
+-> C++ supports virtual keyboard.                         -> Java doesn't supports virtual keyboard.
+
+-> C++ is nearer to hardware.                             -> Java is not so interactive with hardware.
