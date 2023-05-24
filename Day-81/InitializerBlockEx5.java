@@ -14,7 +14,7 @@ public class InitializerBlockEx5 {
             System.out.println(x);
         }
 
-       // System.out.println(y);//can't be accessed outside the initializer block
+       // System.out.println(y);//can't be accessed outside the Local block
 
        System.out.println(x);
 
