@@ -10,17 +10,21 @@ public class IsBlankEx {
 
         String first = "  ";
 
-        String last="hello";
+        String last = "hello";
 
         if(first.isEmpty()||first.isBlank()) { // true, first String contains whitespaces
 
-            first="say"; 
+            first = "say"; 
 
             System.out.println(first+" "+last);
         }
         
-        String str ="";
+        String str = "";
 
         System.out.println(str.isBlank()); // returns true, str String is empty
+
+        String str1 = "\t\n";
+
+        System.out.println(str1.isBlank()); // returns true
     }
 }
