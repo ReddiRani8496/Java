@@ -4,19 +4,17 @@ public class SquareUsingLambda {
 
         Square res = (x) -> {
 
-            System.out.println(x*x);
-
-            
+            return x*x;
 
         };
 
-        res.square(10);
+       System.out.println(res.square(10));
     }
 }
 
 interface Square {
     
-    void square(int x);
+    int square(int x);
 }
 
 
