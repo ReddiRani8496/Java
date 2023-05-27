@@ -2,7 +2,7 @@ import java.util.Arrays;
 import java.util.List;
 import java.util.LinkedList;
 
-public class WildCardGeneric {
+public class UnBoundedWildCard {
     public static void main(String[] args) {
 
         List<Integer> list = Arrays.asList(10,20,30,40);
@@ -20,7 +20,7 @@ public class WildCardGeneric {
         System.out.println(list1);
     }
 
-    public static void numbers(List<Number> t) {
+    public static void numbers(List<?> t) {
 
         System.out.println(t);
     }
