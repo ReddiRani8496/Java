@@ -30,7 +30,7 @@ class Addition {
     }
     public void add(double a, double b) {
         System.out.println(a+b);
-    } */ // Repeating the same method multiple times, this can be achieved by using generics
+    } */ // Repeating the same method multiple times, this can be avoided by using generics
     public <T extends Number> double add(T one, T two) {
         
         return one.doubleValue() + two.doubleValue();
