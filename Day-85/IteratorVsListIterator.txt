@@ -1,0 +1,23 @@
+                Iterator                                               ListIterator
+                                                    
+It can traverse elements present in a Collection                It can traverse elements present in a Collection 
+    only in the forward direction. 	                                both in forward and backward directions.
+
+
+It is used to traverse Map, List, and Set.          	        It is used only to traverse List.
+                                                                    That is it can’t traverse Map and Set.
+
+Iterator cannot add elements to a Collection. 	                ListIterator can add elements to the Collection.
+
+An Iterator cannot modify the elements in the Collection. 	    A ListIterator can modify the elements in 
+                                                                    
+An Iterator has no method to obtain an index of                 ListIterator can be used to obtain the index of
+    the element in a given Collection.                               an element in the Collection.
+
+It has methods like hasNext(), next(), remove(). 	            It has methods like add(E e), hasNext(), hasPrevious(),
+                                                                 next(), nextIndex(), previous(), previousIndex(), 
+                                                                 remove(), set(E e).
+
+
+
+	
