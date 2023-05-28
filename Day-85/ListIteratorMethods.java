@@ -22,7 +22,7 @@ public class ListIteratorMethods {
     
         System.out.println(listIterator.hasPrevious());
     
-        listIterator.remove();
+        listIterator.remove(); 
     
         while (listIterator.hasNext())
     
