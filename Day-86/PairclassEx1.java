@@ -6,20 +6,17 @@ public class PairClassEx1 {
     
     public static void main(String args[]) {
         
-      int temperature[] = {37, 33, 30, 36, 35, 39, 26};
-      
-      String states[] = {"Hyderabad", "Ahmedabad", "Jaipur", "Calcutta", "Lucknow", "Nagpur", "AndhraPradesh"};
-      
-      ArrayList<Pair<String,Integer>> list = new ArrayList<>();
-      
-      for(int i=0; i<temperature.length; i++) {
-          
-          Pair<String, Integer> p = new Pair<>(states[i], temperature[i]);
-          
-          list.add(p);
-      }
-      
-      System.out.println(list);
+        Pair<String, Double> p = new Pair<>("India",142.8);
+
+        System.out.println(p.getKey());
+
+        System.out.println(p.getValue());
+
+        System.out.println(p);
+
+        p = new Pair<>("China",142.56);
+        
+        System.out.println(p);
       
     }
 }
