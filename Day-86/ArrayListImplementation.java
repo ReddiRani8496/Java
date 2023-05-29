@@ -3,7 +3,7 @@ import java.util.Arrays;
 class ArrayListImplementation {
     public static void main(String[] args) {
         myArrayList list = new myArrayList(6);
-      list.add(10);
+        list.add(10);
         list.add(20);
         list.add(30);
         list.add(50);
