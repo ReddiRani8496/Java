@@ -74,6 +74,8 @@ class  myArrayList {
     }
     
     void set(int index, int value) {
+        if(index>arr.length-1)
+         throw new IndexOutOfBoundsException();
         arr[index] = value;
     }
 
