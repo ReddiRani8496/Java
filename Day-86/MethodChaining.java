@@ -15,7 +15,7 @@ class Caluculator {
 
     Caluculator add(int a, int b) {
 
-        System.out.println("Performing addition");
+        System.out.println(a+b);
 
         return this; // returns the address of the Caluculator
     } 
@@ -24,7 +24,7 @@ class Caluculator {
 
     Caluculator sub(int a, int b) {
 
-        System.out.println("Performing subtraction");
+        System.out.println(a-b);
 
         return this;
     }
@@ -32,7 +32,7 @@ class Caluculator {
    // int mul(int a, int b) {
     Caluculator mul(int a, int b) {
 
-        System.out.println("Performing multiplication");
+        System.out.println(a*b);
 
         return this;
     }
@@ -40,7 +40,7 @@ class Caluculator {
     //int div(int a, int b) {
     Caluculator div(int a, int b) {
 
-        System.out.println("Performing division");
+        System.out.println(a/b);
 
         return this;
     }
