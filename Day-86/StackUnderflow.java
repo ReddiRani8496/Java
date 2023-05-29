@@ -1,3 +1,6 @@
+/*
+ * Stack underflow is an error which occurs simply when you try to pop form an empty stack.
+ */
 import java.util.Stack;
 
 public class StackUnderflow {
