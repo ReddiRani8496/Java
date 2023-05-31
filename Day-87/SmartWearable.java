@@ -1,5 +1,4 @@
-import java.util.Arrays;
-
+import java.util.*;
 public class SmartWearable {
     private Categories categories;
     private String brand;
@@ -67,6 +66,7 @@ public class SmartWearable {
     public int getCurrentStock() {
         return currentStock;
     }
+    
 
     @Override
     public String toString() {

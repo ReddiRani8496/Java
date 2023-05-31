@@ -1,5 +1,3 @@
-import java.util.Arrays;
-
 public class Mobiles {
     private String brand;
     private String ram;

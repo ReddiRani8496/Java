@@ -1,5 +1,3 @@
-import java.util.Arrays;
-
 public class Computers {
     private String Brand;
     private double price;
