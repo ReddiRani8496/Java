@@ -109,6 +109,9 @@ public class Mobiles {
 
                 '}';
     }
+    void nick() {
+        System.out.println("nickman");
+    }
 }
 enum OperatingSystem {
     Android,ios;
