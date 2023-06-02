@@ -1,6 +1,6 @@
 import java.util.BitSet;
 
-public class BitClass {
+public class BitSetClass {
     public static void main(String[] args) {
 
         BitSet players = new BitSet();
@@ -43,5 +43,8 @@ public class BitClass {
 
         System.out.println(players2.isEmpty());
 
+        System.out.println(players.nextClearBit(8)); //returns the index of first bit which is set to false that occurs on or after the specified index
+    
+        System.out.println(players2.nextSetBit(57)); //eturns the index of the first bit which is set to true that occurs on or after the specified index
     }
 }
