@@ -1,0 +1,23 @@
+
+            Kind                                                                Syntax
+
+Reference to a static method                                         ContainingClass::staticMethodName
+
+Reference to an instance method of a particular object               new containingClass::instanceMethodName
+
+Reference to an instance method of an arbitrary object               ContainingType::methodName
+ of a particular type
+
+Reference to a constructor                                           ClassName::new
+
+
+MethodReference:
+---------------
+                You use lambda expressions to create anonymous methods. Sometimes, however, 
+
+                a lambda expression does nothing but call an existing method. In those cases,
+
+                it's often clearer to refer to the existing method by name. Method references enable you to do this; 
+                
+                they are compact, easy-to-read lambda expressions for methods that already have a name.
+
