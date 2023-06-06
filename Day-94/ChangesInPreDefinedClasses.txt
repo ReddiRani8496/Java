@@ -1,0 +1,13 @@
+Changes in predefined classes:
+-----------------------------
+
+    If the developer makes any changes in predefined classes then it will effect for everyone who use that class.
+
+    The output may vary from one version to another version.
+
+    Sometimes the expected output and actual output will vary due to change in predefined class.
+
+Changes in userdefined classes:
+------------------------------
+
+    If the user makes any changes in user defined class, it will effect only for him.
