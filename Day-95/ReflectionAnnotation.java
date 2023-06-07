@@ -7,7 +7,7 @@ import java.lang.reflect.Method;
 // Reflection is just like mirror,
 // without looking back, you are able to see whats in the back using a mirror
 //now we are using the fields,methods,annotations,constructors without looking it
-public class Main {
+public class ReflectionAnnotation {
     
     public static void main(String[] args) throws IllegalAccessException, InvocationTargetException {
 
