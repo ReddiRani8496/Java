@@ -1,0 +1,28 @@
+
+
+In Java, documentation comments (Javadoc comments) are used to generate API documentation for classes, methods, 
+ 
+ and other program elements. The purpose of Javadoc comments is to provide information and 
+    
+ documentation about the code to make it easier for developers to understand and use.
+
+The main method in Java is the entry point of a Java program. It is a special method that gets executed when the program starts. 
+
+However, the main method is not considered an API element that would typically be part of a public interface or library documentation. 
+
+The main method is specific to the program's execution and is not intended to be used or referenced by external code or developers.
+
+Javadoc comments are primarily meant to provide documentation for reusable elements,
+
+such as classes, methods, fields, and interfaces, which can be used by other developers to interact with the code. 
+
+As the main method is not part of the public API, there is no need to write Javadoc comments specifically for it.
+
+That being said, you can still add regular comments (non-Javadoc comments) inside the main method 
+
+to provide explanations or  additional details about the logic or functionality of the program. 
+
+
+These comments won't be processed by the Javadoc tool for documentation generation 
+
+but can serve as helpful notes for yourself or other developers working on the codebase.
