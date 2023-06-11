@@ -16,7 +16,10 @@ public class FileInputStreamEx {
 
             System.out.println(inputStream.available()); // returns the number of bytes in the file
 
-            inputStream.read(array); // reading values into the byte array
+            //inputStream.read(array); // reading values into the byte array
+            
+            System.out.println( inputStream.read(array,0,5));  // reads only the 5 characters
+            System.out.println(inputStream.skip(1));
 
             System.out.println(inputStream.available()); // returns 0, after reading the data, there will be no data left
  
