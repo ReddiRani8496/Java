@@ -24,6 +24,8 @@ public class FileInputStreamEx {
 
             System.out.println(str); // printing the data
 
+            inputStream.close();
+
         }
 
         catch (Exception e) { 
@@ -31,6 +33,8 @@ public class FileInputStreamEx {
             e.getStackTrace();
 
         }
+
+       
 
 
     }
