@@ -12,7 +12,8 @@ public class FileReaderEx {
             int x =0;
 
             while((x=fileReader.read())!=-1)
-              System.out.print((char)x);
+              
+                System.out.print((char)x);
 
             fileReader.close();
 
