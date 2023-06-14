@@ -15,7 +15,7 @@ public class BufferedReaderEx {
             
             br.mark(3);
 
-            br.reset();
+            br.reset(); // reseting the pointer position
 
             System.out.println((char)br.read());
 
