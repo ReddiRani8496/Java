@@ -1,5 +1,7 @@
+//Deserilization is opposite to serialization.
+// Deserilization is the of converting byte stream to an object
+
 import java.io.FileInputStream;
-import java.io.IOException;
 import java.io.ObjectInputStream;
 
 public class ObjectInputStreamEx1 {
