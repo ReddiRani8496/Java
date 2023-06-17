@@ -1,17 +1,22 @@
 import java.util.Objects;
 
-public class Main {
+public class RecordKeywordEx {
 
     public static void main(String[] args) {
 
         Person1 p = new Person1("John",24); // we can create object for record, same as class object
 
+        p= new Person1("nick",30);// record values are immutable, to store different values, we can create new object
+
         p.sayHi();
 
         System.out.println(p.age());
 
+        Person1.hello(); // accessing static method from person1 class using (class name.method name)
+
     }
 }
+
 //class Person2 extends Person1{} we cannot extend record class
  class Person {
 
