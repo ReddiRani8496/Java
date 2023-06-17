@@ -1,0 +1,22 @@
+Why record keyword?
+
+Commonly, we write classes to simply hold data, such as database results, query results, 
+
+or information from a service.
+
+In many cases, this data is immutable, since immutability ensures the validity of the data without synchronization.
+
+To accomplish this, we create data classes with the following:
+--------------------------------------------------------------
+
+-> private, final field for each piece of data
+
+-> getter for each field
+
+-> public constructor with a corresponding argument for each field
+
+-> equals method that returns true for objects of the same class when all fields match
+
+-> hashCode method that returns the same value when all fields match
+
+-> toString method that includes the name of the class and the name of each field and its corresponding value
