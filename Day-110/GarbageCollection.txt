@@ -1,0 +1,11 @@
+Garbage Collection:
+------------------
+    Garbage collection is the process of freezing memory allocated to objects that are no longer used.
+    
+    During runtime, when an object is created, the JVM allocates some memory to hold the object.
+    
+    The JVM periodically checks for objects that are in use and deallocates the memory for those objects which are not in use.
+
+    So, the programmer does not have to bother about manual de-allocation of memory.
+    
+    Garbage collection is done in the heap memory.
