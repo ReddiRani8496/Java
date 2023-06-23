@@ -10,7 +10,7 @@ public class GarbageCollection {
         Student s3 = new Student(3, "David");
         s3.get();
 
-        s3=s2; // s3 point to s2 object. It is not possible to point s3 object once it is assigned to another object, we dont't the address of that object
+        s3 = s2; // s3 point to s2 object. It is not possible to point s3 object once it is assigned to another object, we dont't the address of that object
         s3.get();
 
     }
@@ -30,6 +30,6 @@ class Student{
 
         System.out.println("rollno: "+rollno);
         System.out.println("name: "+name);
-        
+
     }
 }
