@@ -1,0 +1,11 @@
+Phase 1: Mark Phase 
+-----------------
+When an object is created, its mark bit is set to 0(false). 
+In the Mark phase, we set the marked bit for all the reachable objects  to 1(true).
+
+Phase 2: Sweep Phase 
+-------------------
+As the name suggests it “sweeps” the unreachable objects,
+it clears the heap memory for all the unreachable objects. 
+All those objects whose marked value is set to false are cleared from the heap memory, 
+for all other objects (reachable objects) the marked bit is set to true.
