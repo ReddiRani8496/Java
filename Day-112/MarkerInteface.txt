@@ -1,0 +1,15 @@
+Marker Interface:
+----------------
+
+The marker interface in Java interfaces with no field or methods or, 
+
+  in simple words empty interface in java is called a marker interface.
+
+Example of marker interface is Serializable, Cloneable, and Remote interface.
+
+Why Marker Interface?
+--------------------
+
+if JVM sees a Class is Serializable, it has done some special operation on it, a similar way, 
+
+if JVM sees one Class is implement Cloneable, it performs some operation to support cloning. 

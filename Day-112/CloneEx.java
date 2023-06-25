@@ -20,6 +20,7 @@ class Subtraction implements Cloneable { // cloneable is a marker interface
     
     int b;
     
+    @Override
     public Object clone() throws CloneNotSupportedException {
     
         return super.clone();

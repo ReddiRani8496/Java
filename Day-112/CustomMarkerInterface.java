@@ -1,3 +1,6 @@
+//marker interface is an empty interface
+// it is used to check the permissions
+
 public class CustomMarkerInterface {
     public static void main(String[] args) {
 
