@@ -1,3 +1,5 @@
+// clone method is use to copy the values avaliable in clonable interface
+
 public class CloneEx {
     public static void main(String[] args) throws CloneNotSupportedException {
 
@@ -19,7 +21,7 @@ class Subtraction implements Cloneable { // cloneable is a marker interface
     int a;
     
     int b;
-    
+
     @Override
     public Object clone() throws CloneNotSupportedException {
     
