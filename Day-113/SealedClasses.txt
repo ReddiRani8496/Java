@@ -1,0 +1,14 @@
+Sealed Classes:
+--------------
+
+A sealed class is a technique that limits the number of classes that can inherit the given class.
+
+This means that only classes designated by the programmer can inherit from that particular class, 
+
+    thereby restricting the access to it.
+
+When a class is declared sealed, the programmer must specify the list of classes that can inherit it.
+
+This concept was introduced in Java 15.
+
+    
