@@ -1,0 +1,17 @@
+=> What is the purpose of the finalize() method in Java?
+
+The finalize() method performs cleanup operations on an object before collecting garbage.
+
+=> When is the finalize() method called?
+
+The finalize() method is called by the garbage collector before an object is removed from memory.
+
+=> What are the potential drawbacks of using the finalize() method?
+
+The finalize() method can introduce performance issues and make it harder to reason about the object lifecycle. 
+  It should be used with caution.
+
+=> What are some alternatives to using the finalize() method?
+
+Alternatives include try-with-resources blocks, explicit close() method calls,
+   and other cleanup mechanisms that are more predictable and easier to reason about.
