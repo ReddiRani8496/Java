@@ -6,7 +6,7 @@ public class SealedEx1 {
         tiger.sound();
     }
 }
-sealed class Animal {
+sealed class Animal { // if we don't specify permits, then the sealed class can only be extended by the final and non-sealed classes
     void sound() {
         System.out.println("noise");
     }
