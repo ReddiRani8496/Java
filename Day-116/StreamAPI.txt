@@ -1,0 +1,15 @@
+Stream API:
+----------
+
+    Sequence of data that supports multiple operations like filtering, mapping etc.
+
+    Don't change the original structure.
+
+    Don't hold data, stream process data.
+
+Why Streams are lazy?
+--------------------
+
+    Because all intermediate operations are not executed until terminal operation starts.
+
+    Terminal operations call the intermediate operations.
