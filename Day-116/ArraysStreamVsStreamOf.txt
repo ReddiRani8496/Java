@@ -1,0 +1,12 @@
+Arrays.Stream() :
+----------------
+
+    The stream() method of Arrays class in java, is used to get a sequential stream from the array passed as the parameter
+    with its elements.
+
+Streams.of() :
+-------------
+
+    The stream of() method returns a sequential ordered stream whose elements are the specific values.
+
+    Stream.of() method simply calls the Arrays.stream() method for non-primitive types.
