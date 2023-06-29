@@ -1,0 +1,20 @@
+Debugging:
+---------
+
+Debugging is the process of identifying and resolving errors, or bugs, in a software system. 
+
+It is an important aspect of software engineering because bugs can cause a software system to malfunction,
+
+  and can lead to poor performance or incorrect results.
+
+Step into :
+---------
+        Debugs line by line.
+
+Step over:
+---------
+        Debugs the current function at a time.
+    
+Step out:
+--------
+        Debugs the whole code at a time and returns result
