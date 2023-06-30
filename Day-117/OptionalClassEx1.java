@@ -1,6 +1,6 @@
 import java.util.Optional;
 
-public class Main {
+public class OptionalClassEx1 {
 
     public static void main(String[] args) {
 

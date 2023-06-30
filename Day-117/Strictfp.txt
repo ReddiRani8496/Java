@@ -1,0 +1,16 @@
+strictfp keyword:
+----------------
+
+-> stands for strict floating point, introduced in java 1.2
+
+-> Used in java for restricting floating point calculations and ensuring the same result on every platform.
+
+-> strictfp modifier is used with classes,interface, and methods only but is not applicable to apply with variables.
+
+-> When a class or interface is declared with strictfp modifier, then all methods declaredin the class/interface are implicitly strictfp
+
+-> strictfp cannot be used with abstract methods. It can be used with abstract classes.
+
+-> Since methods of an interface are implicitly abstract, strictfp cannot be with any method inside an interface.
+
+-> Java 17 version, strictfp keyword is not required explicitly as all floating point expressions are strictly evaluated.
