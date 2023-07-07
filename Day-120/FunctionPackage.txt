@@ -1,0 +1,49 @@
+java.util.function is a new package added in java8.
+
+lot of built-in functional interfaces, many methods of streams will take functional interfaces in the input.
+
+Consumer interface:
+------------------
+
+The person who consumes something and returns nothing is called a consumer.
+
+built-in functional interface
+
+part of java 8
+
+it has method called accept(T t)
+
+that accepts an argument of any data type
+
+operate on that data T
+
+it returns nothing/no result
+
+lambda expression
+
+Function interface:
+------------------
+
+Function can be used to transform an input value
+
+it accepts an argument of any data type
+
+transforms it and returns a result
+
+Supplier:
+--------
+
+Supplier can be used to produce a value
+
+it doesn't accept any argument
+
+but produces a result of any data type
+
+Difference between Supplier and Consumer interfaces:
+----------------------------------------------------
+
+Consumer will take any data type and returns nothing / void
+
+Supplier doesn't take any data and returns something/not void
+
+
