@@ -21,6 +21,13 @@ it returns nothing/no result
 
 lambda expression
 
+BiConsumer Interface:
+--------------------
+
+ the Bi-Consumer interface takes two arguments
+
+ it returns nothing
+ 
 Function interface:
 ------------------
 
