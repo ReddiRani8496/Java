@@ -8,10 +8,10 @@ public class RunnableInterface {
         Thread t1 = new Thread(nick);
         Thread t2 = new Thread(mock);
 
-        t1.start(); // simultaneously prints nick and mock class
+        t1.start(); // simultaneously prints nick and mock class i.e., runs mutliple threads simultaneously
         t2.start();
 
-//        t1.run(); // prints run method until the condition false
+//        t1.run(); // prints run method until the condition false i.e., runs a single thread at a time
 //        t2.run(); // prints run method only after t1 execution completes
 
     }
