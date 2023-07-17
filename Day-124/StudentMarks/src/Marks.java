@@ -21,13 +21,13 @@ public class Marks {
 
     public void in() {
 
-        ReadMarks("Marks1");
-        ReadMarks("Marks2");
-        ReadMarks("Marks3");
+        readMarks("Marks1");
+        readMarks("Marks2");
+        readMarks("Marks3");
 
     }
 
-        private void ReadMarks(String subject) {
+        private void readMarks(String subject) {
 
         while (true) {
 
