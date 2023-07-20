@@ -1,25 +1,19 @@
+import myObject.MyObject;
+
 public class Main {
-    static int count;
-    public Main() {
 
-        count++;
-        
-    }
-    private  int getSerialNumber() {
-
-        return count;
-
-    }
     public static void main(String[] args) {
 
-        Main main1 = new Main();
-        Main main2 = new Main();
-        Main main3 = new Main();
+        MyObject obj1 = new MyObject();
+        MyObject obj2 = new MyObject();
+        MyObject obj3 = new MyObject();
 
-        System.out.println("I am object number "+main1.getSerialNumber());
-        System.out.println("I am object number "+main2.getSerialNumber());
-        System.out.println("I am object number "+main3.getSerialNumber());
+        obj1.display();
+        obj2.display();
+        obj3.display();
 
+        System.out.println(MyObject.getCount());
+        
     }
 }
 
