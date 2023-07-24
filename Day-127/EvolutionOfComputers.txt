@@ -1,0 +1,211 @@
+Evolution Of Computers:
+----------------------
+
+Barter System:
+--------------
+
+Barter is a system of exchange in which participants directly exchange goods or services 
+    for other goods or services without using a medium of exchange, such as money.
+
+Disadvantage of barter system:
+------------------------------
+
+Any commodity can't be exchanged at any point of time.
+If two persons are far distance, then barter system will not work.
+
+
+
+Money:
+-----
+
+To overcome Disadvantage of barter system Money is introduced.
+
+Advantages:
+----------
+
+Any commodity can be exchanged at any point of time using money.
+
+
+
+At olden calculations are like:
+------------------------------
+
+If there is one general store, the items and money collected is calculated as:
+
+for example, 5 items are calculated as:
+
+| | | | |
+
+if first is done then first one is crossed out, until last.
+
+To overcome this problem number system came into existence:
+----------------------------------------------------------
+
+Types of Number System:
+----------------------
+
+There are four types of number systems:
+
+1. Binary number system
+2. Octal number system
+3. Decimal number system
+4. HexaDecimal number system
+
+By using decimal number system we can calculate the data, but 
+ -> It takes more time
+ -> Less accuracy
+ -> More human resource is required
+
+To overcome this problem Calculator is introduced:
+-------------------------------------------------
+
+Calculator is used to perform Arithmetic operations like:
+
+Addition
+Subtraction
+Multiplication
+Divison
+
+But here we can't store the data.
+
+To overcome this problem Computers are introduced:
+--------------------------------------------------
+
+It performs both Arithmetic and Logical operations.
+
+Arithmetic operations like: 
+--------------------------
+Addition
+Subtraction
+Multiplication
+Divison
+
+Logical operations like:
+-----------------------
+
+> (greater than)
+< (less than)
+>= (greater than or equal to)
+<= (less than or equal to)
+== (equal to)
+&& (logical and)
+|| (logical or)
+
+Computers store the data.
+
+Generations of Computers:
+------------------------
+
+There are five generations of computers. These are:
+
+1. First Generation
+
+2. Second Generation 
+
+3. Third Generation   
+
+4. Fourth Generation  
+
+5. Fifth Generation  
+
+
+Computers of First Generation (1940 to 1956)
+--------------------------------------------
+
+The first-generation computer was a fragile device. 
+
+It was made of glass and the central technology was a vacuum tube.
+
+The computers of this generation were heavy, bulky and  used a lot of electricity.
+
+Computers of the first generation conducted operations using machine language, a low-level programming language.
+
+Computers of Second Generation (1956 to 1963)
+---------------------------------------------
+
+Second-generation computers were developed using transistor technology instead of vacuum tubes. 
+
+The size of the computers was smaller, and the calculation time was also shorter compared with computers of the first generation.
+
+The CPU is made up of Transistors, which is a semiconductor.
+
+If voltage high - 1, otherwise 0.
+
+Computers of Third Generation (1964 to 1971)
+-------------------------------------------
+
+It consist of Assembly language. 
+
+It contains Assembler as translator.
+
+Assembler is used to convert the Assembly language into machine code.
+
+Assembly language consist of mnemonics, like 
+add -> Addition
+sub -> Subtraction
+mul -> Multiplication etc.
+
+Computers of Fourth Generation (1971 – Present) 
+-----------------------------------------------
+
+It consist of high level languages.
+
+Examples: Java, c, c++, python, kotlin, ruby etc.
+
+It is easier to understand.
+
+The code is like normal english.
+
+Easy to write the code.
+
+100 times simple and easy when compared to binary language or assembly language.
+
+It contains two translators:
+---------------------------
+
+Complier:
+--------
+
+Used to compile the entire source code.
+
+Java is a compiled programming language.
+
+It takes more memory.
+
+The main advantage of compiler is, it converts source code to byte code only one time, we can run as many times we need.
+
+Disadvantage of compiler is, if starting statements are correct and only last line of code contains error, it doesn't execute remaining lines.
+
+Example:
+-------
+int age = 20;
+System.out.println(age);
+System.out.println("hello");
+System.out.println(marks); // it contains error, so it shows compile time error, previous statements will not execute.
+
+Interpreter:
+-----------
+
+Interpreter program works line-by-line.
+
+Interpreter takes less memory.
+
+Python is a interpreted programming language.
+
+The advantage of Interpreter is, it runs the program from first line and stops execution only if it encounters an error.
+
+The Disadvantage of Interpreter is, the source code need to be translated to machine code every time we run the program.
+
+Example:
+-------
+int age = 20;
+System.out.println(age);
+System.out.println("hello");
+System.out.println(marks);
+
+Output:
+------
+20
+hello
+Then error will occur.
+
