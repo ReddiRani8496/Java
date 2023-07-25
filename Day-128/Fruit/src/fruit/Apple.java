@@ -6,12 +6,12 @@ public class Apple extends Fruit {
 
     private int weight = isWeightValid();
 
-
-
     private static int isWeightValid() {
+
         Scanner scan = new Scanner(System.in);
+
         int weight;
-        System.out.print("Enter quantity of Apple : ");
+        System.out.print("Enter weight of Apple : ");
 
         while (true) {
 
@@ -23,11 +23,11 @@ public class Apple extends Fruit {
                     break;
                 }
 
-                System.out.println("Enter quantity of Apple : ");
+                System.out.println("Enter weight of Apple : ");
 
             } catch (Exception e) {
 
-                System.out.println("Enter quantity of Apple : ");
+                System.out.println("Enter weight of Apple : ");
 
                 scan.next();
 

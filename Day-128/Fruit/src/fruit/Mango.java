@@ -3,17 +3,14 @@ package fruit;
 import java.util.Scanner;
 
 public class Mango extends Fruit {
-
-
-
     private int weight = isWeightValid();
 
-
-
     private static int isWeightValid() {
+
         Scanner scan = new Scanner(System.in);
+
         int weight;
-        System.out.print("Enter quantity of Mango: ");
+        System.out.print("Enter weight of Mango: ");
 
         while (true) {
 
@@ -26,11 +23,11 @@ public class Mango extends Fruit {
                     break;
                 }
 
-                System.out.println("Enter quantity of Mango: ");
+                System.out.println("Enter weight of Mango: ");
 
             } catch (Exception e) {
 
-                System.out.println("Enter quantity of Mango: ");
+                System.out.println("Enter weight of Mango: ");
 
                 scan.next();
 

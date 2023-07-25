@@ -1,9 +1,9 @@
 package fruit;
 
-public abstract class Fruit {
+public interface Fruit  {
 
-   final int price = 10;
-   protected void cost(){};
+    String brand = "Happilo";
+    void cost();
 
 }
 
