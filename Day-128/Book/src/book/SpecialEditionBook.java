@@ -2,20 +2,24 @@ package book;
 
 public class SpecialEditionBook extends Book {
 
-    private double discount;
+    double discount = getDiscount();
 
-    public SpecialEditionBook(int bno, String bname, double price, double discount) {
+    public SpecialEditionBook(int bno, String bname, double price) {
 
-        super(bno, bname, price);
-        this.discount = discount;
+        super(bno, bname,price);
+        double discountPrice = price/100 * discount;
+        super.price = price - discountPrice;
 
+    }
+
+    int getDiscount() {
+        return (int)(Math.random()*100);
     }
 
     @Override
     public void display() {
 
         super.display();
-        System.out.println("Discount = " + discount);
 
     }
 

@@ -7,7 +7,7 @@ public class Main {
         Book book = new Book(1,"Java",400);
         book.display();
 
-        SpecialEditionBook specialEditionBook = new SpecialEditionBook(1,"java",400,20);
+        SpecialEditionBook specialEditionBook = new SpecialEditionBook(1,"java",400);
         specialEditionBook.display();
 
     }
