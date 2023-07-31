@@ -1,0 +1,36 @@
+Logging in Java:
+
+Logging is a crucial aspect of software development, allowing developers to record important information about the application's behavior at runtime.
+
+Java provides a built-in logging framework through the java.util.logging package, which allows developers to log messages at various levels of severity.
+
+Key components of Java Logging:
+
+    Logger: The central class responsible for logging messages.
+
+     Developers obtain an instance of the Logger class to log messages from different parts of the application.
+
+    Handlers: Handlers determine where log messages are sent. 
+
+    Java provides various built-in handlers like ConsoleHandler and FileHandler. 
+
+    Custom handlers can also be implemented to direct log messages to specific destinations.
+
+    Formatters: Formatters control the format of log messages. They determine how the log messages are presented in the output. Java has a SimpleFormatter, but custom formatters can be created as well.
+
+    Log Levels: Log levels categorize log messages based on their severity. Java defines seven standard log levels, listed from the most severe to the least:
+        SEVERE: Messages about critical errors that may cause the application to crash.
+        WARNING: Messages about potential issues or unexpected behavior.
+        INFO: General information about the application's state and progress.
+        CONFIG: Configuration information.
+        FINE: Detailed information for debugging purposes.
+        FINER: Even more detailed information than FINE.
+        FINEST: The most detailed information for debugging.
+
+Usage of Log Levels:
+
+Developers can use these log levels to control the verbosity of log output. 
+
+During development and debugging, lower log levels (e.g., FINE, FINER, FINEST) can be used to obtain more detailed information about the application's behavior.
+
+In production, higher log levels (e.g., SEVERE, WARNING, INFO) are typically used to keep the log output concise and only log important messages.
