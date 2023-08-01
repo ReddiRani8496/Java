@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2023-08-01T00:48:39.436366211Z</date>
+  <millis>1690850919436</millis>
+  <nanos>366211</nanos>
+  <sequence>0</sequence>
+  <logger>LoggingFileHandler</logger>
+  <level>CONFIG</level>
+  <class>LoggingFileHandler</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>file configuration done successfully</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2023-08-01T01:06:18.101041498Z</date>
+  <millis>1690851978101</millis>
+  <nanos>41498</nanos>
+  <sequence>0</sequence>
+  <logger>LoggingEx2</logger>
+  <level>SEVERE</level>
+  <class>LoggingEx3</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>severe</message>
+</record>
+<record>
+  <date>2023-08-01T01:06:18.109084486Z</date>
+  <millis>1690851978109</millis>
+  <nanos>84486</nanos>
+  <sequence>1</sequence>
+  <logger>LoggingEx2</logger>
+  <level>WARNING</level>
+  <class>LoggingEx3</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>warning</message>
+</record>
+<record>
+  <date>2023-08-01T01:06:18.109298605Z</date>
+  <millis>1690851978109</millis>
+  <nanos>298605</nanos>
+  <sequence>2</sequence>
+  <logger>LoggingEx2</logger>
+  <level>INFO</level>
+  <class>LoggingEx3</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>info</message>
+</record>
+<record>
+  <date>2023-08-01T01:06:18.109537289Z</date>
+  <millis>1690851978109</millis>
+  <nanos>537289</nanos>
+  <sequence>3</sequence>
+  <logger>LoggingEx2</logger>
+  <level>CONFIG</level>
+  <class>LoggingEx3</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>config</message>
+</record>
+<record>
+  <date>2023-08-01T01:06:18.109701957Z</date>
+  <millis>1690851978109</millis>
+  <nanos>701957</nanos>
+  <sequence>4</sequence>
+  <logger>LoggingEx2</logger>
+  <level>FINE</level>
+  <class>LoggingEx3</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>fine</message>
+</record>
+<record>
+  <date>2023-08-01T01:06:18.109855673Z</date>
+  <millis>1690851978109</millis>
+  <nanos>855673</nanos>
+  <sequence>5</sequence>
+  <logger>LoggingEx2</logger>
+  <level>FINER</level>
+  <class>LoggingEx3</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>finer</message>
+</record>
+<record>
+  <date>2023-08-01T01:06:18.110091816Z</date>
+  <millis>1690851978110</millis>
+  <nanos>91816</nanos>
+  <sequence>6</sequence>
+  <logger>LoggingEx2</logger>
+  <level>FINEST</level>
+  <class>LoggingEx3</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>finest</message>
+</record>
+</log>
+Aug 01, 2023 6:46:15 AM LoggingEx4 main
+SEVERE: severe
+Aug 01, 2023 6:46:15 AM LoggingEx4 main
+WARNING: warning
+Aug 01, 2023 6:46:15 AM LoggingEx4 main
+INFO: info
