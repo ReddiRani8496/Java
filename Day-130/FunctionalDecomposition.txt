@@ -7,6 +7,8 @@ manageable functions or methods in Java. Each function performs a specific task,
 
 This approach is essential for creating modular, reusable, and maintainable code.
 
+Functional decomposition is not key to everything, but using this approach will help you create neat and understandable programs that are easy to work with.
+
 Advantages of Functional decomposition:
 --------------------------------------
 
