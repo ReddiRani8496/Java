@@ -35,15 +35,21 @@ class Eagle extends Bird{
      }
      */
 
+//    Eagle(int a) {
+//        // super() will be placed by the compiler at compile , it will throw error
+//        System.out.println("hello");
+//    }
+
     Eagle() {
         super(10); // there is no error explicitly calling one parameterised constructor
         System.out.println("hello");
+        this.speed = 50; // parent class speed is accessed
        // super(20); // super call must be first statement in the constructor body
     }
     public void fly() {
         System.out.println("Flying speed "+speed); // child can access parent variables
     }
-    
+
 }
 
 class Parrot extends Eagle {
