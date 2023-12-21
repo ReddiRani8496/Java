@@ -26,4 +26,4 @@ Advantages of Functional decomposition:
 
     Functional Interfaces and Lambda Expressions: In Java, functional decomposition can be further enhanced by using functional interfaces and lambda expressions. These features allow you to treat functions as first-class citizens,
                         
-                         making it easier to pass functions as arguments, return them from other functions, and use them in functional programming paradigms.
+             making it easier to pass functions as arguments, return them from other functions, and use them in functional programming paradigms.
