@@ -21,7 +21,5 @@ public class GridLayoutEx {
         frame.add(new JButton("10"));
         frame.setVisible(true);
 
-
-
     }
 }
