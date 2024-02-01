@@ -23,14 +23,16 @@ public class InputFromUser extends HttpServlet {
         String[] pV = req.getParameterValues("techskills");
         System.out.println("name="+name);
         System.out.println("desig="+desig);
+        
         for(String i:pV)
             System.out.println(i);
 
 
         // send response to client
-
 //        RequestDispatcher rd = req.getRequestDispatcher("staticresp.html");
 //        rd.forward(req,resp);
+
+
 
         // dynamic response
 
