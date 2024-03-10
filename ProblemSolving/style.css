@@ -1,0 +1,22 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+.todo-container {
+  max-width: 400px;
+  margin: 20px auto;
+  text-align: center;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+button {
+  margin-top: 10px;
+}
